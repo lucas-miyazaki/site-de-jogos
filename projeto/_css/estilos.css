@@ -1,0 +1,29 @@
+body{
+    margin: auto;
+    text-align: center;
+    text-align: center;
+}
+nav.jogoslink{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Lemon Milk', cursive;
+    list-style-type: none;
+    text-decoration: none;
+}
+h1.nomesite{
+    font-family: 'arial', cursive;
+    
+}
+nav.inicio{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'arial', cursive;
+    list-style-type: none;
+    text-decoration: none;
+}
+h3{
+    background-color: rgb(199, 238, 255);
+}
+div{
+    background-color: darkblue;
+}

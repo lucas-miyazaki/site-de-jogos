@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God of War:Ragnarok</title>
+    <link rel="stylesheet" href="_css/jogo1.css">
+
+     
+</head>
+<body>
+    <h1>God of War:Ragnarok</h1>
+        <div>
+    <h2> A história</h2>
+        <p>Não há desenho animado, mas dizem que é lacinia, a elite da terra dui pulvinar, e nenhuma vida livre de medo e tradição. Os jogadores imobiliários dos meus filhos, que são os jogadores tinciduns. Agora no elemento de desenvolvimento. Morbi eu nibh in é um curso de tremor como na dor. Agora é isso que ele quer. Risos infantis, um travesseiro confortável e macio, o chocolate da vida. Um barco e um barco.</small></p>
+        </div>
+   
+        <div>
+    <h2> Gameplay</h2>
+        <p>Não há desenho animado, mas dizem que é lacinia, a elite da terra dui pulvinar, e nenhuma vida livre de medo e tradição. Os jogadores imobiliários dos meus filhos, que são os jogadores tinciduns. Agora no elemento de desenvolvimento. Morbi eu nibh in é um curso de tremor como na dor. Agora é isso que ele quer. Risos infantis, um travesseiro confortável e macio, o chocolate da vida. Um barco e um barco.</small></p>
+        <p>Não há desenho animado, mas dizem que é lacinia, a elite da terra dui pulvinar, e nenhuma vida livre de medo e tradição. Os jogadores imobiliários dos meus filhos, que são os jogadores tinciduns. Agora no elemento de desenvolvimento. Morbi eu nibh in é um curso de tremor como na dor. Agora é isso que ele quer. Risos infantis, um travesseiro confortável e macio, o chocolate da vida. Um barco e um barco.</small></p>
+   
+         </div>
+
+         <div>
+    <h2> Vale a pena?</h2>
+        <p>Não há desenho animado, mas dizem que é lacinia, a elite da terra dui pulvinar, e nenhuma vida livre de medo e tradição. Os jogadores imobiliários dos meus filhos, que são os jogadores tinciduns. Agora no elemento de desenvolvimento. Morbi eu nibh in é um curso de tremor como na dor. Agora é isso que ele quer. Risos infantis, um travesseiro confortável e macio, o chocolate da vida. Um barco e um barco.</small></p>
+         </div>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="assets/_imagens/gow/gow1.jpg" style="width:100%">
+    <div class="text">Imagem 1</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="assets/_imagens/gow/gow2.jpg" style="width:100%">
+    <div class="text">Imagem 2</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="assets/_imagens/gow/gow3.jpg" style="width:100%">
+    <div class="text">Imagem 3</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="assets/_imagens/gow/gow4.jpg" style="width:100%">
+    <div class="text">Imagem 4</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="assets/_imagens/gow/gow5.jpg" style="width:100%">
+    <div class="text">Imagem 5</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+  </div>
+  
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
+</body>
+</html>
